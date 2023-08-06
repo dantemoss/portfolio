@@ -7,7 +7,7 @@ import CssLogo from "../assets/icons/css-3.png"
 const Tools = () => {
     return (
     <div className="container mx-auto px-0 ">
-        <h2 className="text-gradient font-Syne font-bold text-8xl flex justify-center line-through">MY STACK FRONT</h2>
+        <h2 className=" text-8xl flex justify-center pruebaFont2">MY STACK FRONT</h2>
         <div className="flex justify-center gap-40 mt-40 tool-container pt-10 pb-10 pl-0 pr-0 tool-pattern">
             <img src={ReactLogo} alt="React Logo" className="w-25 h-20 icon text-xl hover:scale-110 transform transition-transform"/>
             <img src={JavaScriptLogo} alt="React Logo" className="w-25 h-20 icon text-xl hover:scale-110 transform transition-transform"/>

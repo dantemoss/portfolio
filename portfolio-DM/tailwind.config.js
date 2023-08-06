@@ -8,11 +8,14 @@ export default {
       },
       fontFamily: {
         "Syne": ["Syne",'sans-serif'],
-        "GolosText":[ 'Golos Text', 'sans-serif'],
+        "GolosText": [ 'Golos Text', 'sans-serif'],
         "Ultra": ['Ultra', 'serif'],
         "Kanit": ['Kanit', 'sans-serif'],
-        "Alfa-Slab-One": ['Alfa Slab One','cursive'],
-        "Passion-One": ['Passion One', 'cursive']
+        "Alfa-Slab-One": ['Alfa Slab One'],
+        "PublicPixel": ['PublicPixel', 'sans-serif'],
+        "Passion-One": ['Passion One', 'cursive'],
+        'spotifyFont': ['GothamMedium_1', 'sans-serif'],
+        
       }
       
     },

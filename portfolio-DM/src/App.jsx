@@ -1,6 +1,7 @@
 
-import Biography from './components/Biography'
+
 import Header from './components/Header'
+import Projects from './components/Projects'
 import Tools from './components/Tools'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <>
       <Header/>
       <Tools/>
-      <Biography/>
+      <Projects/>
     </>
   )
 }
