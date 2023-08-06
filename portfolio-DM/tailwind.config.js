@@ -9,7 +9,10 @@ export default {
       fontFamily: {
         "Syne": ["Syne",'sans-serif'],
         "GolosText":[ 'Golos Text', 'sans-serif'],
-        "Ultra": ['Ultra', 'serif']
+        "Ultra": ['Ultra', 'serif'],
+        "Kanit": ['Kanit', 'sans-serif'],
+        "Alfa-Slab-One": ['Alfa Slab One','cursive'],
+        "Passion-One": ['Passion One', 'cursive']
       }
       
     },

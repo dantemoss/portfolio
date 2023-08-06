@@ -20,7 +20,7 @@ const Header = () => {
                     Witness FrontEnd Mastery
                 </h2>
 
-                <button className='rounded-full ring-black bg-[#FFCFD2] w-1/3 h-20 text-lg font-[GolosText] font-semibold hover:bg-white-100 mt-10 ' >
+                <button className='rounded-full ring-black bg-[#FFCFD2] w-1/3 h-20 text-lg font-[GolosText] hover:bg-white-100 mt-10 ' >
                     Explore Projects
                 </button>
             </div>

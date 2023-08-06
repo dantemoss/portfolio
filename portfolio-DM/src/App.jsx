@@ -1,6 +1,6 @@
-import './App.css'
-import Header from './components/Header'
 
+import Biography from './components/Biography'
+import Header from './components/Header'
 import Tools from './components/Tools'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header/>
       <Tools/>
-      
+      <Biography/>
     </>
   )
 }
