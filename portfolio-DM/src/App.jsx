@@ -1,7 +1,6 @@
-
-
 import Header from './components/Header'
-import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
+
 import Tools from './components/Tools'
 
 function App() {
@@ -10,8 +9,9 @@ function App() {
   return (
     <>
       <Header/>
+      <AboutMe/>
       <Tools/>
-      <Projects/>
+      
     </>
   )
 }
