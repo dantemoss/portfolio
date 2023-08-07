@@ -128,7 +128,9 @@
 
 }
 
-
+.modakFont {
+  font-family: 'Modak', cursive;
+}
 
 .pruebaFont {
   font-family: 'Roboto', sans-serif;
@@ -176,75 +178,25 @@
 
 
 .card {
-  position: relative;
   width: 190px;
   height: 254px;
-  background: linear-gradient(to bottom right, #ff2ab7, #7522a1);
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-  z-index: 1;
-  border-radius: 21px;
-  overflow: hidden;
+  background: rgb(46, 44, 44);
+  transition: all 300ms;
+  display: flex;
+  justify-content: center;
 }
 
-.card__content {
-  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(150, 150, 150, 0.1));
-  z-index: 1;
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 21px;
-  backdrop-filter: blur(35px);
+.card:hover {
+  opacity: 0.8;
+  transform: scale(1.10);
 }
 
-.card .blob {
-  position: absolute;
-  z-index: -1;
-  border-radius: 5em;
-  width: 200px;
-  height: 200px;
-  animation-name: blob-animation;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
 
-.card .blob:nth-child(1) {
-  left: -50px;
-  top: -90px;
-  background: #c52791;
-}
+.shadow-skills {
+  background: #5374CF;
+  background: linear-gradient(to right, #5374CF 0%, #8C5FCF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 
-.card .blob:nth-child(2) {
-  left: 110px;
-  top: -20px;
-  z-index: -1;
-  background: #6d1d7f;
-}
-
-.card .blob:nth-child(3) {
-  left: -40px;
-  top: 100px;
-  background: #a31c72;
-}
-
-.card .blob:nth-child(4) {
-  left: 100px;
-  top: 180px;
-  background: #4a158a;
-}
-
-@keyframes blob-animation {
-  0% {
-    transform: translate(0, 0) scale(1);
-  }
-
-  50% {
-    transform: translate(10%, 10%) scale(1.1);
-  }
-
-  100% {
-    transform: translate(0, 0) scale(1);
-  }
 }
