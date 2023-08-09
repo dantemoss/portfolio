@@ -3,6 +3,9 @@ import AboutMe from './components/AboutMe'
 
 import Tools from './components/Tools'
 
+
+import ProjectsContainer from './components/ProjectsContainer'
+
 function App() {
   
 
@@ -11,6 +14,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Tools/>
+      <ProjectsContainer/>
       
     </>
   )

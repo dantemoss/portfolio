@@ -15,7 +15,7 @@ const Tools = () => {
                 Dante Moscoso Experience
             </h2>
             <h3 className="text-3xl text-center PixelFont gradienttext">Its Different.</h3>
-            <h2 className="modakFont text-5xl flex justify-center shadow-skills mt-60">My Front Skills.</h2>
+            <h2 className="PixelFont text-2xl flex justify-center shadow-skills mt-60">My Front Skills.</h2>
             <div className="flex justify-center gap-4 ">
                 {skillImages.map((image, index) => (
                     <CardSkills key={index} image={image} />
