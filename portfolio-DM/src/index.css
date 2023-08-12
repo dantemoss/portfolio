@@ -113,10 +113,6 @@
   }
 }
 
-
-
-
-
 .card {
   background: rgba(234, 224, 224, 0.1);
   border-radius: 16px;
@@ -124,23 +120,8 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(234, 224, 224, 0.02);
-
-
 }
 
-.modakFont {
-  font-family: 'Dela Gothic One', cursive;
-}
-
-.pruebaFont {
-  font-family: 'Roboto', sans-serif;
-
-}
-
-
-.PixelFont {
-  font-family: 'Press Start 2P', cursive;
-}
 
 
 #demotext {
@@ -171,11 +152,8 @@
   background: linear-gradient(to right, #44CACF 0%, #CC74CF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  
 }
-
-
-
 
 .card {
   width: 190px;
@@ -197,6 +175,33 @@
   background: linear-gradient(to right, #5374CF 0%, #8C5FCF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+}
+
+
+.work-shadow {
+  background: #595DCF;
+  background: linear-gradient(to right, #595DCF 0%, #CF63BD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.modakFont {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.pruebaFont {
+  font-family: 'Roboto', sans-serif;
 
 }
+
+
+.PixelFont {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.GeologicaFont{
+  font-family: 'Geologica', sans-serif;
+}
+

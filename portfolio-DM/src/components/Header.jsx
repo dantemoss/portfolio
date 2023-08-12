@@ -14,11 +14,11 @@ const Header = () => {
     
     
     return (
-        <div className="flex items-center justify-center h-screen">
-            <div className="flex flex-col items-start">
+        <div className="flex items-center justify-center h-screen header-container">
+            <div className="flex flex-col items-start max-md:items-center">
                 <div className="relative w-32 h-32">
                     {/* SVG con efecto de superposición */}
-                    <div className="absolute w-full h-full -top-0 -right-14 z-1 -bottom-2">
+                    <div className="absolute w-full h-full -top-0 -right-14 z-1 -bottom-2 max-md:hidden">
                         <img src={svg} alt="svg" className="w-full h-full" />
                     </div>
                     {/* Imagen de perfil */}
@@ -30,14 +30,14 @@ const Header = () => {
                     Witness FrontEnd Mastery
                 </h2>
 
-                <div className="flex items-center gap-5 mt-5 w-full"> {/* Contenedor de iconos y botón */}
+                <div className="flex items-center gap-5 mt-5 w-full max-md:flex max-md:justify-center max-md:flex-col"> {/* Contenedor de iconos y botón */}
                 
                     <button className='rounded-full ring-black bg-[#FFCFD2] w-2/4 h-14 pruebaFont font-bold hover:bg-white-100' onClick={() => openPDF('public/DanteMoscosoCurriculum.pdf')}>
                         View CV
                     </button>
 
                     {/* Inicio REDES */}
-                    <div className="flex items-center gap-x-5 w-full"> {/* Contenedor de iconos */}
+                    <div className="flex items-center gap-x-5 w-full max-md:flex max-md:justify-center"> {/* Contenedor de iconos */}
                         <a href="https://www.instagram.com/dante.moss/" className="social-icon" target="_blank" rel="noopener noreferrer">
                             <img src={instaLogo} alt="Instagram" className="icon w-8 h-8 flex-shrink-0 hover:scale-105" />
                         </a>

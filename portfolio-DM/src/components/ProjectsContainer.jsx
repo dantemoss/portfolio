@@ -1,17 +1,15 @@
-
 import Gallery from './CardProject';
 
 const ProjectsContainer = () => {
     return (
-        <div className="grid lg:grid-cols-3 lg:gap-x-12 w-128">
-            <Gallery />
-            <Gallery />
-            <Gallery />
-            <Gallery />
-            <Gallery />
-            <Gallery />
+        <div className="mt-20">
+            <h2 className='PixelFont text-center text-4xl work-shadow my-6 font-bold'>a bit of my work</h2>
+            <div className="flex flex-col items-center space-y-6">
+                <Gallery />
+            </div>
         </div>
     );
 };
 
 export default ProjectsContainer;
+
